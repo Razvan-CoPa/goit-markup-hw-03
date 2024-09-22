@@ -106,7 +106,48 @@ button.all {
 
 
 .footer {
+    margin-top: 96px;
+    height: 312px;
+    color: #FFFFFF;
     background-color: #2E2F42;
 }
 
+.footer div{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 156px;
+    line-height: 24px;
+    font-weight: 400;
+    font-size: 16px;
+    width: 264px;
+}
 
+section.cards{
+    object-fit: cover;
+    padding-bottom: 48px;
+    gap: 24px;
+    justify-content: center;
+    display: flex;
+    
+}
+
+.cards .card{
+    height: 420px;
+    border: 1px solid #E7E9FC;
+}
+
+.card div {
+    line-height: 24px;
+    font-size: 20px;
+    font-weight: 500;
+    color: #2E2F42;
+    padding: 0px 16px 0px 16px;
+}
+
+
+.cards .card footer{
+    line-height: 24px;
+    font-size: 16px;
+    font-weight: 400;
+    color: #434455;
+}
